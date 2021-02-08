@@ -8,7 +8,7 @@ def main(thread_count):
     event.set()
 
     for id in range(thread_count):
-        thread = Thread(target=send, args = (id, event), daemon=True)
+        thread = Thread(target=send, args=(id,event), daemon=True)
         thread.start()
         threads.append(thread)
 
