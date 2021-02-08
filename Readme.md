@@ -6,9 +6,13 @@ Requirements:
 * Installation of `Requests` python library
 
 In a terminal (in an python environment of your preference: pyenv, pipenv, etc) run the following command:
-```pip install Flask```
+```
+pip install Flask
+```
 and:
-```pip install requests```
+```
+pip install requests
+```
 
 ## Client
 
